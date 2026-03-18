@@ -1,0 +1,153 @@
+Pessoa
+
+Atributos:
+nome
+idade
+profissão
+nacionalidade
+
+Métodos (ações):
+
+falar
+trabalhar
+apresentar-se
+andar
+
+Objetos da classe Pessoa
+
+Neymar
+nome: Neymar
+idade: 32 anos
+profissão: Jogador de futebol
+nacionalidade: Brasileiro
+
+Tony Stark
+nome: Tony Stark
+idade: adulto
+profissão: Engenheiro / empresário
+nacionalidade: Americano
+
+Cebolinha
+nome: Cebolinha
+idade: criança
+profissão: Estudante
+nacionalidade: Brasileiro
+
+#############################################################################################################
+
+Classe: Carro
+
+Atributos:
+
+marca
+modelo
+cor
+ano
+velocidade
+
+Métodos:
+
+ligar
+acelerar
+frear
+desligar
+
+Objetos da classe Carro
+
+Ferrari
+marca: Ferrari
+modelo: Ferrari
+cor: Vermelha
+tipo: Esportivo
+
+Mustang
+
+marca: Ford
+modelo: Mustang
+cor: Preto
+tipo: Esportivo
+
+Fiesta
+
+marca: Ford
+modelo: Fiesta
+cor: Prata
+tipo: Hatch
+
+#######################################################################################################################################
+
+Classe: Animal
+
+Atributos:
+espécie
+habitat
+alimentação
+idade
+
+Métodos:
+
+comer
+dormir
+movimentar-se
+emitir som
+
+Objetos da classe Animal
+
+Leão
+Referência: Lion
+espécie: Leão
+habitat: Savana
+alimentação: Carnívoro
+
+Humano
+espécie: Humano
+habitat: Diversos ambientes
+alimentação: Onívoro
+
+Quero-quero
+espécie: Quero-quero
+habitat: Campos e áreas abertas
+alimentação: Insetívoro
+
+Capivara
+espécie: Capivara
+habitat: Próximo a rios e lagoas
+alimentação: Herbívoro
+
+###########################################################################################################
+Classe: Produto
+Atributos:
+nome
+marca
+preço
+categoria
+
+Métodos:
+vender
+mostrar informações
+aplicar desconto
+
+Objetos
+
+Chocolate
+nome: Chocolate
+marca: Nestlé
+preço: R$8,50
+categoria: Alimento
+
+Amaciante
+marca: Comfort
+preço: R$15,00
+categoria: Limpeza
+
+Bom Bril
+
+marca: Bom Bril
+preço: R$3,50
+categoria: Limpeza
+
+Shampoo
+nome: Shampoo
+marca: Pantene
+preço: R$18,90
+categoria: Higiene
