@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Painel de Análise de Produtos</h1>
+
+    <div class="container">
+
+       
+        <div class="form">
+            <input type="text" id="nome" placeholder="Nome do produto">
+            <input type="number" id="preco" placeholder="Preço">
+            <input type="number" id="quantidade" placeholder="Quantidade">
+        </div>
+
+        <div class="btn-container">
+            <button onclick="adicionarProduto()">Adicionar produto</button>
+        </div>
+
+    
+        <div class="cards">
+            <div class="card">
+                <h3>Produto mais caro</h3>
+                <p id="maisCaro">-</p>
+            </div>
+
+            <div class="card">
+                <h3>Maior quantidade</h3>
+                <p id="maiorQtd">-</p>
+            </div>
+
+            <div class="card">
+                <h3>Valor total em estoque</h3>
+                <p id="totalEstoque">R$ 0</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

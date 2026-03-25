@@ -1,4 +1,0 @@
-git add . 
-git clone link_do_repositorio
-git commit -m "mensagem"
-git push

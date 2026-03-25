@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #bdbdbd;
+    margin: 0;
+}
+
+
+h1 {
+    background: #1e66dc;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.container {
+    background: #dcdcdc;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.form {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.form input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #1e66dc;
+    color: white;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.card:nth-child(1) {
+    background: #ff6a00;
+}
+
+.card:nth-child(2) {
+    background: #18b300;
+}
+
+.card:nth-child(3) {
+    background: #2d5fd3;
+    color: white;
+}
+
+.card p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+}
